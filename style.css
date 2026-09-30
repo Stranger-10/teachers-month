@@ -1,0 +1,60 @@
+body{
+    margin:100px;
+    margin-top: 250px;
+    background-color: antiquewhite;
+    font-family: Arial;
+    
+    
+}
+
+
+.pic{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border-radius:10px;
+}
+
+.pic1{
+  object-fit: cover;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+button{
+    margin-top: 10px;
+    background-color:blue;
+    border:3px solid  lch(20.02% 94.92 306.87);
+    color:white;
+    border-radius: 15px;
+    height: 30px;
+
+
+
+}
+
+[popover]:popover-open{
+    text-align: center;
+    padding-top:10px;
+    padding:50px;
+    border:2px solid #2600ff;
+    background-color: aqua;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+[popover]::backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
